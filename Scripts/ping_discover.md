@@ -1,6 +1,6 @@
 # Contexte 
 
-Ce script provient du livre _"Penetration Testing: A Hands-On Introduction to Hacking" écrit pas Georgia Weidman_.
+Ce script provient du livre "_Penetration Testing: A Hands-On Introduction to Hacking_" écrit pas Georgia Weidman.
 
 # Script 
 
