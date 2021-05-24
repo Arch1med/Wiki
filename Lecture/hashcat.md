@@ -1,5 +1,3 @@
-hashcat
-
 # Hashcat 
 
 ## Présentation
