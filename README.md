@@ -1,7 +1,7 @@
 # Who Am I ? 
 
 ```sh
-Arch1med@CPU:~$ whoami 
+$ whoami 
 Arch1med
 ```
 
