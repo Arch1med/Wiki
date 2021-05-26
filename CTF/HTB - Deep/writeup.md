@@ -123,7 +123,7 @@ On se rend donc sur la page: https://deep.htb/vtigercrm/graph.php?current_langua
 
 L'affichage n'est pas optimal, pour y voit plus clair: `CTRL + U` pour afficher le code source
 
-(img)[_ressource/ctrl.png]
+[img](_ressource/ctrl.png)
 
 On voit que le mot de passe suivant est utilisé un peu partout: **jEhdIekWmdjE**
 
