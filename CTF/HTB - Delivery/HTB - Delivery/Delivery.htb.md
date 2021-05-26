@@ -1,6 +1,18 @@
-Delivery.htb
+# Box 
 
-[toc]
+```diff
++ Niveau: Facile à Intermédiaire
+```
+
+Cette box à été écrite par IPPSec, elle est originale et fais appelle à différentes techniques.
+
+* Enumération Web
+* usurpation d'identité par e-mail
+* Virtual Host
+* MySQL
+* Hashcat
+	* bcrypt password crack 
+	* Utilisation de règle pour dériver un mot.
 
 # FootHold
 
@@ -153,8 +165,9 @@ Essayons donc de se connecter en SSH à l'aide de ces credentials:
 
 J'ai essayé plusieurs outils d'énumération tels que:
 
-linpeas.sh (lien)
-lse.sh (lien)
+linpeas.sh [ici](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
+
+lse.sh [ici](https://github.com/diego-treitos/linux-smart-enumeration)
 
 ## Base de donnée - MariaDB
 
