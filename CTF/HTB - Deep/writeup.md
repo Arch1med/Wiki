@@ -1,3 +1,17 @@
+# Box 
+
+
+```diff
++ Niveau: Facile
+```
+
+Il existe plusieurs façon de resoudre cette box au travers des différents services exposés. J'ai choisi de montrer celle qui m'a permis de root la box moi même.
+
+* **LFI**
+* **mot de passe réutilisé**
+* **SSH**
+
+
 # FootHold
 
 La première chose que je fais que je m'attaque à une box HTB c'est d'ajouter la résolution de nom <box>.htb à mon fichier /etc/hosts:
