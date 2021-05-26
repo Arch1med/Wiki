@@ -1,6 +1,14 @@
+# First step
+
+La première chose que je fais que je m'attaque à une box HTB c'est d'ajouter la résolution de nom <box>.htb à mon fichier /etc/hosts:
+
+`echo "10.129.152.59	beep.htb"`
+
 # Enumération des ports 
 
-`nmap 10.129.151.94` 
+Scannons d'abords tout les ports:
+
+`nmap 10.129.151.94 -p-` 
 
 ```
 PORT      STATE SERVICE
@@ -22,6 +30,7 @@ PORT      STATE SERVICE
 10000/tcp open  snet-sensor-mgmt
 ```
 
+Nous effectuons maintenant un scan plus complet sur les ports désignés (option -p):
 
 `nmap 10.129.151.94 -p 22,25,80,110,111,143,443,944,993,995,3306,4190,4445,4559,5038,10000 -A `
 
@@ -54,3 +63,12 @@ PORT      STATE SERVICE
 |_http-server-header: MiniServ/1.570
 |_http-title: Site doesn't have a title (text/html; Charset=iso-8859-1).
 ```
+
+# Site Web http:// deep.htb  et https:// deep.htb
+
+Le site force l'usage d'HTTPS, il n'y a donc "rien à voir" sur le port 80 et nous sommes redirigés vers le port 443.
+
+Il s'agit d'Elastix: ![elastix](_ressource/Screenshot_20210526_095805.png)
+
+
+
