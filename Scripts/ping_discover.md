@@ -2,6 +2,12 @@
 
 Ce script provient du livre "_Penetration Testing: A Hands-On Introduction to Hacking_" écrit pas Georgia Weidman.
 
+C'est un script shell qui permet de "scanner" un réseau à l'aide de ping.
+
+Usage (pour scanner le réseau 192.168.0.0/24): 
+
+./ping.sh 192.168.0
+
 # Script 
 
 ```sh
