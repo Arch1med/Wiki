@@ -6,6 +6,8 @@
 - Utilisation d'un dictionnairep pour renseigner les différent mdp à utiliser (on connais déjà l'user qui est fergus)
 - Redirection des requêtes vers un proxy local pour analyser les requêtes et la façon dont elles sont construites = Vérifier qu'elles correspondent bien à des requêtes légitimes et compréhensibles pour le site en question.
 
+Je me suis notamment aidé de ce script pour résoudre le **challenge Web** _"embdee five for life"_ de la plateforme Hack The Box.
+
 # Script 
 
 ```py
