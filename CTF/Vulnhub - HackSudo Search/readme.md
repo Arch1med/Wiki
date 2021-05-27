@@ -1,3 +1,14 @@
+# La box
+
+```diff
++ niveau: facile
+```
+
+Dans cette box nous verrons: 
+* Du FUZZ
+* Une RFI et/ou LFI (au choix) 
+* Exploitation d'un binaire avec sticky bit
+
 # Nmap
  
    `nmap hacksudo_search -A`
