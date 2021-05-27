@@ -4,7 +4,7 @@ Cette page contient les ressources que j'utilise lorsque j'effectue des CTF.
 
 # Liens 
 
-Le "[guide du hacker](https://hacklab.yoloctf.org/yoloctf/toolbox/toolbox.php)", rédigé par [ZenZenvibe](https://github.com/jossets)
+Le "[guide du hacker](https://hacklab.yoloctf.org/yoloctf/toolbox/toolbox.php)", rédigé par [ZenZenvibe](https://github.com/jossets) est très riche d'enseignement et rédigé en français. 
 
 ## Escalade de privilège (privilege escalation)
 
