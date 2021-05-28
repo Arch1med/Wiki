@@ -14,7 +14,7 @@ Il existe plusieurs façon de resoudre cette box au travers des différents serv
 
 # FootHold
 
-La première chose que je fais que je m'attaque à une box HTB c'est d'ajouter la résolution de nom <box>.htb à mon fichier /etc/hosts:
+La première chose que je fais que je m'attaque à une box HTB c'est d'ajouter la résolution de nom box.htb à mon fichier /etc/hosts:
 
 `echo "10.129.152.59	beep.htb"`
 
@@ -129,7 +129,7 @@ Lorsqu'il s'agit de rechercher une faille, j'aime utiliser l'outil "searchsploit
 
 `searchsploit elastix`
 
-Parmis les failles proposés, celle qui me semble pour l'instant intéressante est la (LFI sur le graph.php)[https://www.exploit-db.com/exploits/37637].
+Parmis les failles proposés, celle qui me semble pour l'instant intéressante est la [LFI sur le graph.php](https://www.exploit-db.com/exploits/37637).
 
 > LFI Exploit: /vtigercrm/graph.php?current_language=../../../../../../../..//etc/amportal.conf%00&module=Accounts&action
 
