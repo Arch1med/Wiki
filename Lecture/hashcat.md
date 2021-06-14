@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Hashcat est un outil Linux open-source et développer par le MIT qui permet de cracker des hash. Il est réputé pour être le plus rapide et le plus avancé des outils actuellement disponoible pour ce genre d'usage.
+Hashcat est un outil Linux open-source et développer par le MIT qui permet de cracker des hash. Il est réputé pour être le plus rapide et le plus avancé des outils actuellement disponible pour ce genre d'usage.
 
 ### C'est quoi un hash ?
 
